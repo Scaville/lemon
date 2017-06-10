@@ -1,6 +1,6 @@
 <?php
 
-namespace Scaville\Lemon\Core\Http\Mvc;
+namespace Scaville\Lemon\Core\MVC;
 
 use Scaville\Lemon\Core\Application;
 use Scaville\Lemon\Providers\Settings;
@@ -47,7 +47,7 @@ class View {
         if (isset($options['scripts'])) {
             foreach ($options['scripts'] as $key => $stack) {
                 if ($key === 'full') {
-                    foreach ($stack as $index=>$script) {
+                    foreach ($stack as $index => $script) {
                         $this->addScript($script);
                     }
                 } else {
@@ -67,7 +67,7 @@ class View {
         if (isset($options['styles'])) {
             foreach ($options['styles'] as $key => $stack) {
                 if ($key === 'full') {
-                    foreach ($stack as $index=>$style) {
+                    foreach ($stack as $index => $style) {
                         $this->addStyle($style);
                     }
                 } else {
@@ -204,8 +204,8 @@ class View {
     public function getVariable($name) {
         return $this->variables[$name];
     }
-    
-    public function setVariable($name,$value){
+
+    public function setVariable($name, $value) {
         $this->variables[$name] = $value;
         return $this;
     }

@@ -1,8 +1,6 @@
 <?php
 
-namespace Scaville\Lemon\Core\Http;
-
-use Scaville\Lemon\Core\Http\Mvc\View;
+namespace Scaville\Lemon\Core\HTTP;
 
 abstract class Response {
 

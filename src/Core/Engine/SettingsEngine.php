@@ -33,7 +33,7 @@ final class SettingsEngine implements Engine {
     
 
     private static function loadSettingFiles(){
-        $root = new \RecursiveDirectoryIterator($_SERVER['DOCUMENT_ROOT']);
+        $root = new \RecursiveDirectoryIterator(dirname($_SERVER['DOCUMENT_ROOT']));
         $iterator = new \RecursiveIteratorIterator($root);
         $files = new \RegexIterator($iterator,'/^.+\.sv.cfg.php$/i',\RecursiveRegexIterator::GET_MATCH);
         foreach ($files as $file=>$content){

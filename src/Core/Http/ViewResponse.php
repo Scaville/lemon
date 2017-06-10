@@ -1,6 +1,6 @@
 <?php
 
-namespace Scaville\Lemon\Core\Http;
+namespace Scaville\Lemon\Core\HTTP;
 
 class ViewResponse extends Response {
 

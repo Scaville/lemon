@@ -1,6 +1,6 @@
 <?php
 
-namespace Scaville\Lemon\Core\Http\Mvc;
+namespace Scaville\Lemon\Core\MVC;
 
 use Scaville\Lemon\Core\Application;
 use Scaville\Lemon\Providers\Http;

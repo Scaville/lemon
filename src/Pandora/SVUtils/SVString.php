@@ -1,6 +1,6 @@
 <?php
 
-namespace Scaville\Lemon\Core\PHPExtends;
+namespace Scaville\Lemon\Pandora\SVUtils;
 
 class SVString {
 

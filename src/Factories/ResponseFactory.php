@@ -2,9 +2,9 @@
 
 namespace Scaville\Lemon\Factories;
 
-use Scaville\Lemon\Core\Http\Mvc\View;
+use Scaville\Lemon\Core\MVC\View;
 use Scaville\Lemon\Core\Interfaces\Factory;
-use Scaville\Lemon\Core\Http\ViewResponse;
+use Scaville\Lemon\Core\HTTP\ViewResponse;
 
 class ResponseFactory implements Factory {
 
