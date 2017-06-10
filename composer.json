@@ -1,0 +1,13 @@
+{
+    "name": "scaville/lemon",
+    "description": "Lemon Framework",
+    "type": "library",
+    "version" : "1.0.1",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Scaville\\Lemon\\": "src/"
+        }
+    }
+}
