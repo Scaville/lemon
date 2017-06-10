@@ -9,4 +9,7 @@ interface Messages {
     const CORE_APP_SINGLETON_RESTRICT = "Não é possível instanciar esta classe!";
     const EXTENSION_NOT_ALLOWED = "Não é permitido o acesso direto a arquivos!";
     const VW_MODULE_UNDEFINED = "Não foi definido o módulo da view!";
+    const SECRET_KEY_NOT_DEFINED = "Chave secreta não definida!";
+    const PRIVATE_KEY_NOT_DEFINED = "Chave privada não definida!";
+    const PUBLIC_KEY_NOT_DEFINED = "Chave pública não definida!";
 }
